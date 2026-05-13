@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#1a2744"/>
+  <!-- Scales beam (horizontal bar) -->
+  <rect x="12" y="22" width="40" height="3" rx="1.5" fill="#c9a84c"/>
+  <!-- Center pillar -->
+  <rect x="30.5" y="12" width="3" height="32" rx="1.5" fill="#c9a84c"/>
+  <!-- Left pan chain -->
+  <line x1="16" y1="25" x2="16" y2="33" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Right pan chain -->
+  <line x1="48" y1="25" x2="48" y2="33" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Left pan -->
+  <path d="M10 33 Q16 38 22 33" stroke="#c9a84c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Right pan -->
+  <path d="M42 33 Q48 38 54 33" stroke="#c9a84c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Base of pillar -->
+  <rect x="24" y="44" width="16" height="3" rx="1.5" fill="#c9a84c"/>
+  <!-- Gavel head -->
+  <rect x="26" y="10" width="12" height="6" rx="2" fill="#e8c76d" transform="rotate(-30 32 13)"/>
+  <!-- Gavel handle -->
+  <rect x="33" y="12" width="2" height="10" rx="1" fill="#c9a84c" transform="rotate(-30 34 17)"/>
+</svg>
